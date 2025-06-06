@@ -2,7 +2,7 @@
 
 This project enables users to crawl arXiv for papers from specified categories, filter them using a Large Language Model (LLM) based on a custom prompt, and generate a CSV file with the filtered paper names and PDF links. Unlike daily crawlers, this project fetches historical papers up to a user-defined maximum, making it ideal for comprehensive research collection.
 
-[📺 View Demo Video](Tutorial.mp4)
+![Demo GIF](Demo.gif)
 
 ## Features
 
