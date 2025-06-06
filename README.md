@@ -119,7 +119,7 @@ Embodied AI refers to artificial intelligence systems integrated with physical b
 - `cs.RO`: Robotics
 - `cs.HC`: Human-Computer Interaction
 
-Example command for Embodied AI research:
+Example command for Embodied AI research: (I recommend running on a single category for more precise result)
 ```bash
-python main.py --categories "cs.AI cs.CV cs.RO" --prompt my_prompt.txt --max_papers 100
+python main.py --categories "cs.RO" --prompt my_prompt.txt --max_papers 100
 ```
