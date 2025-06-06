@@ -4,7 +4,7 @@ from typing import List, Dict, Any
 import requests
 
 # Define API key globally here or in Environment Variables
-API_KEY = "sk-xxx"
+API_KEY = os.getenv("DASHSCOPE_API_KEY")
 
 def call_dashscope_api(prompt: str, max_tokens: int = 50) -> str:
     """Calls the Alibaba Cloud DashScope API (OpenAI-compatible) for text generation."""
