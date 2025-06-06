@@ -42,7 +42,7 @@ This project enables users to crawl arXiv for papers from specified categories, 
 4. **Set Up API Key**:
    This project uses Alibaba Cloud's DashScope API for LLM filtering. Follow these steps to set up your API key:
    - **Obtain an API Key**:
-     - Go to the [Alibaba Cloud console](https://www.alibabacloud.com/help/en/model-studio) and navigate to the DashScope section.
+     - Go to the [Alibaba Cloud console](https://www.alibabacloud.com/help/en/model-studio) > Model Studio > Activate Now .
      - Create a new API key if you don't have one.
    - **Set the Environment Variable**:
      - On Windows PowerShell: `$env:DASHSCOPE_API_KEY = "your_api_key_here"`
