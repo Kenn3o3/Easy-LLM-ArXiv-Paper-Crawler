@@ -2,6 +2,8 @@
 
 This project enables users to crawl arXiv for papers from specified categories, filter them using a Large Language Model (LLM) based on a custom prompt, and generate a CSV file with the filtered paper names and PDF links. Unlike daily crawlers, this project fetches historical papers up to a user-defined maximum, making it ideal for comprehensive research collection.
 
+[📺 View Demo Video](Tutorial.mp4)
+
 ## Features
 
 - **User Inputs**:
@@ -43,7 +45,7 @@ This project enables users to crawl arXiv for papers from specified categories, 
      - Go to the [Alibaba Cloud console](https://www.alibabacloud.com/help/en/model-studio) and navigate to the DashScope section.
      - Create a new API key if you don't have one.
    - **Set the Environment Variable**:
-     - On Windows PowerShell: `$env:DASHSCOPE_API_KEY = "sk-69406c6e64b24db389d31ef5e207f717"`
+     - On Windows PowerShell: `$env:DASHSCOPE_API_KEY = "your_api_key_here"`
      - On macOS/Linux: `export DASHSCOPE_API_KEY="your_api_key_here"`
      - Replace `"your_api_key_here"` with your actual API key.
    - You can also set this in your shell configuration file (e.g., `~/.bashrc`) for persistent access.
@@ -121,5 +123,5 @@ Embodied AI refers to artificial intelligence systems integrated with physical b
 
 Example command for Embodied AI research: (I recommend running on a single category for more precise result)
 ```bash
-python main.py --categories "cs.RO" --prompt my_prompt.txt --max_papers 100
+python main.py --categories "cs.RO" --prompt my_prompt.txt --max_papers 10
 ```
