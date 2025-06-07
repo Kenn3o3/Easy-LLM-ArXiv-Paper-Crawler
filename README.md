@@ -48,7 +48,7 @@ Welcome to the **ArXiv Historical Paper Crawler**! 🚀 This project lets you cr
      - Visit the [Alibaba Cloud console](https://www.alibabacloud.com/help/en/model-studio) > Model Studio > Activate Now.
      - Generate a new API key if you don't have one.
    - **Set the Environment Variable**:
-     - Windows PowerShell: `$env:DASHSCOPE_API_KEY = "your_api_key_here"`
+     - Windows PowerShell: `$env:DASHSCOPE_API_KEY = "sk-ef3aa1974eff488c95c5cf389cf4e3db"`
      - macOS/Linux: `export DASHSCOPE_API_KEY="your_api_key_here"`
      - Replace `"your_api_key_here"` with your actual API key.
    - **Pro Tip**: Add the export command to your shell configuration file (e.g., `~/.bashrc`) for persistent access.
@@ -136,3 +136,4 @@ python main.py --categories "cs.RO" --prompt my_prompt.txt --max_papers 10
 ## 📊 Repository Views
 
 [![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2FKenn3o3%2FEasy-LLM-ArXiv-Paper-Crawler&countColor=%23dce775)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FKenn3o3%2FEasy-LLM-ArXiv-Paper-Crawler)
+

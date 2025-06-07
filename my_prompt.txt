@@ -1,1 +1,14 @@
-Is this paper related to humanoid or dexterous manipulation and including the use of tools?
+Here is the overview of a project I am recently working on:
+```
+Project Overview
+Project: Humanoid Robot Assist Feeding of Elderly
+Task Objective:
+The primary goal of this project is to develop a humanoid robot, specifically focusing on the upper body with dexterous hands, to assist in feeding elderly individuals. This involves the robot's ability to use tools, interact with humans, and perform dexterous manipulation.
+
+Task Properties:
+	• Tool use
+	• Human interaction
+	• Dexterous manipulation (humanoid robot has high DoFs upper limb)
+```
+
+Is this paper highly related to my project that I should read for my project?
