@@ -19,6 +19,11 @@ def main(categories, prompt_file, max_papers):
     """
     logging.info(f"Starting crawl with categories: {categories}, prompt file: '{prompt_file}', max_papers: {max_papers}")
 
+    # Prompt user for keywords
+    user_input = input("Enter user-defined keywords (separated by spaces): ")
+    user_keywords = user_input.split()
+    logging.info(f"User-defined keywords: {user_keywords}")
+    
     # Read prompt from file
     try:
         with open(prompt_file, 'r', encoding='utf-8') as f:
@@ -31,17 +36,17 @@ def main(categories, prompt_file, max_papers):
         logging.error(f"Error reading prompt file: {e}")
         return
 
-    # Generate keywords with AI using the prompt content
-    logging.info("Generating keywords with AI...")
-    keywords = generate_keywords(prompt_content)
-    if not keywords:
-        logging.warning("No keywords generated. Fetching without keyword refinement.")
+    # Generate machine-defined keywords with AI using the prompt content
+    logging.info("Generating machine-defined keywords with AI...")
+    machine_keywords = generate_keywords(prompt_content)
+    if not machine_keywords:
+        logging.warning("No machine-defined keywords generated. Fetching without keyword refinement.")
     else:
-        logging.info(f"Generated keywords: {keywords}")
+        logging.info(f"Generated machine-defined keywords: {machine_keywords}")
 
-    # Fetch papers from arXiv using categories and keywords
+    # Fetch papers from arXiv using categories, user_keywords, and machine_keywords
     logging.info("Fetching papers from arXiv...")
-    papers = fetch_arxiv_papers(categories=categories, keywords=keywords, max_results=max_papers)
+    papers = fetch_arxiv_papers(categories=categories, user_keywords=user_keywords, machine_keywords=machine_keywords, max_results=max_papers)
     if not papers:
         logging.warning("No papers fetched. Exiting.")
         return

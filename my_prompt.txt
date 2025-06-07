@@ -11,4 +11,4 @@ Task Properties:
 	• Dexterous manipulation (humanoid robot has high DoFs upper limb)
 ```
 
-Is this paper highly related to my project that I should read for my project?
+Is this paper highly related to my project that involves a humanoid, dexterous manipulation and tool use?
