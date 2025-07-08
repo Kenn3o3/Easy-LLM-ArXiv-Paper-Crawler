@@ -2,8 +2,8 @@ import arxiv
 import logging
 from typing import List, Dict, Any
 
-def fetch_arxiv_papers(categories: List[str], user_keywords: List[str], machine_keywords: List[str], max_results: int) -> List[Dict[str, Any]]:
-    client = arxiv.Client()
+def fetch_arxiv_papers(categories: List[str], user_keywords: List[str], machine_keywords: List[str], max_results: int, total_results: int) -> List[Dict[str, Any]]:
+    client = arxiv.Client(page_size=max_results)
     papers = []
     
     # Construct category query
@@ -39,7 +39,7 @@ def fetch_arxiv_papers(categories: List[str], user_keywords: List[str], machine_
 
     search = arxiv.Search(
         query=query,
-        max_results=max_results,
+        max_results=total_results,
         sort_by=arxiv.SortCriterion.SubmittedDate,
         sort_order=arxiv.SortOrder.Descending
     )
@@ -52,7 +52,7 @@ def fetch_arxiv_papers(categories: List[str], user_keywords: List[str], machine_
                 "pdf_url": result.pdf_url,
                 "published_date": result.published
             })
-            if len(papers) >= max_results:
+            if len(papers) >= total_results:
                 break
         logging.info(f"Retrieved {len(papers)} papers.")
     except Exception as e:
@@ -63,4 +63,4 @@ def fetch_arxiv_papers(categories: List[str], user_keywords: List[str], machine_
             logging.warning("No papers fetched due to error.")
             return []
 
-    return papers
+    return papers[:total_results]

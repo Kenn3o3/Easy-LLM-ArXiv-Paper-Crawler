@@ -8,16 +8,17 @@ from utils import save_to_csv
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-def main(categories, prompt_file, max_papers):
+def main(categories, prompt_file, max_papers, total_papers):
     """
     Main function to crawl arXiv, filter papers using keywords and LLM, and save to CSV.
     
     Args:
         categories (list): List of arXiv categories.
         prompt_file (str): Path to the file containing the LLM prompt.
-        max_papers (int): Maximum number of papers to retrieve.
+        max_papers (int): Maximum number of papers to retrieve per page (page size).
+        total_papers (int): Total number of papers to retrieve.
     """
-    logging.info(f"Starting crawl with categories: {categories}, prompt file: '{prompt_file}', max_papers: {max_papers}")
+    logging.info(f"Starting crawl with categories: {categories}, prompt file: '{prompt_file}', max_papers: {max_papers}, total_papers: {total_papers}")
 
     # Prompt user for keywords
     user_input = input("Enter user-defined keywords (separated by spaces): ")
@@ -46,7 +47,7 @@ def main(categories, prompt_file, max_papers):
 
     # Fetch papers from arXiv using categories, user_keywords, and machine_keywords
     logging.info("Fetching papers from arXiv...")
-    papers = fetch_arxiv_papers(categories=categories, user_keywords=user_keywords, machine_keywords=machine_keywords, max_results=max_papers)
+    papers = fetch_arxiv_papers(categories=categories, user_keywords=user_keywords, machine_keywords=machine_keywords, max_results=max_papers, total_results=total_papers)
     if not papers:
         logging.warning("No papers fetched. Exiting.")
         return
@@ -67,8 +68,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Crawl arXiv for historical papers, filter with keywords and LLM.")
     parser.add_argument("--categories", type=str, required=True, help="Space-separated list of arXiv categories (e.g., 'cs.CV physics.optics')")
     parser.add_argument("--prompt", type=str, required=True, help="Path to the prompt file (e.g., 'my_prompt.txt')")
-    parser.add_argument("--max_papers", type=int, required=True, help="Maximum number of papers to retrieve")
+    parser.add_argument("--max_papers", type=int, required=True, help="Maximum number of papers to retrieve per page (page size)")
+    parser.add_argument("--total_papers", type=int, required=True, help="Total number of papers to retrieve")
 
     args = parser.parse_args()
     categories = args.categories.split()
-    main(categories=categories, prompt_file=args.prompt, max_papers=args.max_papers)
+    main(categories=categories, prompt_file=args.prompt, max_papers=args.max_papers, total_papers=args.total_papers)

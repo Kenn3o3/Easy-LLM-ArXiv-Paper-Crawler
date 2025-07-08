@@ -1,14 +1,8 @@
 Here is the overview of a project I am recently working on:
 ```
-Project Overview
-Project: Humanoid Robot Assist Feeding of Elderly
-Task Objective:
-The primary goal of this project is to develop a humanoid robot, specifically focusing on the upper body with dexterous hands, to assist in feeding elderly individuals. This involves the robot's ability to use tools, interact with humans, and perform dexterous manipulation.
+My project overview:
 
-Task Properties:
-	• Tool use
-	• Human interaction
-	• Dexterous manipulation (humanoid robot has high DoFs upper limb)
+Create a rigged 3D model from a real human in any pose (e.g., sitting, standing) and shape (e.g., fatness).
 ```
 
-Is this paper highly related to my project that involves a humanoid, dexterous manipulation and tool use?
+Is this paper highly related to my project?

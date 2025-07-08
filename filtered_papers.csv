@@ -1,82 +1,116 @@
 Paper Name,PDF Link
-Interactive Imitation Learning for Dexterous Robotic Manipulation: Challenges and Perspectives -- A Survey,http://arxiv.org/pdf/2506.00098v1
-Humanoid Loco-manipulation Planning based on Graph Search and Reachability Maps,http://arxiv.org/pdf/2505.23505v1
-Learning Unified Force and Position Control for Legged Loco-Manipulation,http://arxiv.org/pdf/2505.20829v1
-Extremum Flow Matching for Offline Goal Conditioned Reinforcement Learning,http://arxiv.org/pdf/2505.19717v1
-MaskedManipulator: Versatile Whole-Body Control for Loco-Manipulation,http://arxiv.org/pdf/2505.19086v1
-H2-COMPACT: Human-Humanoid Co-Manipulation via Adaptive Contact Trajectory Policies,http://arxiv.org/pdf/2505.17627v1
-FLARE: Robot Learning with Implicit World Modeling,http://arxiv.org/pdf/2505.15659v1
-Emergent Active Perception and Dexterity of Simulated Humanoids from Visual Reinforcement Learning,http://arxiv.org/pdf/2505.12278v1
-Rethink Repeatable Measures of Robot Performance with Statistical Query,http://arxiv.org/pdf/2505.08216v1
-Neural Brain: A Neuroscience-inspired Framework for Embodied Agents,http://arxiv.org/pdf/2505.07634v2
-FACET: Force-Adaptive Control via Impedance Reference Tracking for Legged Robots,http://arxiv.org/pdf/2505.06883v2
-FALCON: Learning Force-Adaptive Humanoid Loco-Manipulation,http://arxiv.org/pdf/2505.06776v1
-Human-Robot Collaboration for the Remote Control of Mobile Humanoid Robots with Torso-Arm Coordination,http://arxiv.org/pdf/2505.05773v1
-TWIST: Teleoperated Whole-Body Imitation System,http://arxiv.org/pdf/2505.02833v1
-Model Tensor Planning,http://arxiv.org/pdf/2505.01059v1
-Physically Consistent Humanoid Loco-Manipulation using Latent Diffusion Models,http://arxiv.org/pdf/2504.16843v1
-RUKA: Rethinking the Design of Humanoid Hands with Learning,http://arxiv.org/pdf/2504.13165v1
-Embodied Chain of Action Reasoning with Multi-Modal Foundation Model for Humanoid Loco-manipulation,http://arxiv.org/pdf/2504.09532v1
-"Echo: An Open-Source, Low-Cost Teleoperation System with Force Feedback for Dataset Collection in Robot Learning",http://arxiv.org/pdf/2504.07939v1
-A High-Force Gripper with Embedded Multimodal Sensing for Powerful and Perception Driven Grasping,http://arxiv.org/pdf/2504.04970v1
-Sim-and-Real Co-Training: A Simple Recipe for Vision-Based Robotic Manipulation,http://arxiv.org/pdf/2503.24361v2
-FLAM: Foundation Model-Based Body Stabilization for Humanoid Locomotion and Manipulation,http://arxiv.org/pdf/2503.22249v1
-OminiAdapt: Learning Cross-Task Invariance for Robust and Environment-Aware Robotic Manipulation,http://arxiv.org/pdf/2503.21257v1
-LaMOuR: Leveraging Language Models for Out-of-Distribution Recovery in Reinforcement Learning,http://arxiv.org/pdf/2503.17125v5
-Wearable Haptics for a Marionette-inspired Teleoperation of Highly Redundant Robotic Systems,http://arxiv.org/pdf/2503.15998v1
-GR00T N1: An Open Foundation Model for Generalist Humanoid Robots,http://arxiv.org/pdf/2503.14734v2
-Humanoid Policy ~ Human Policy,http://arxiv.org/pdf/2503.13441v2
-Humanoids in Hospitals: A Technical Study of Humanoid Surrogates for Dexterous Medical Interventions,http://arxiv.org/pdf/2503.12725v1
-Being-0: A Humanoid Robotic Agent with Vision-Language Models and Modular Skills,http://arxiv.org/pdf/2503.12533v2
-Instruction-Augmented Long-Horizon Planning: Embedding Grounding Mechanisms in Embodied Mobile Manipulation,http://arxiv.org/pdf/2503.08084v1
-"Design, Dynamic Modeling and Control of a 2-DOF Robotic Wrist Actuated by Twisted and Coiled Actuators",http://arxiv.org/pdf/2503.05508v1
-"Multi-Stage Manipulation with Demonstration-Augmented Reward, Policy, and World Model Learning",http://arxiv.org/pdf/2503.01837v1
-Differentiable Information Enhanced Model-Based Reinforcement Learning,http://arxiv.org/pdf/2503.01178v1
-Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids,http://arxiv.org/pdf/2502.20396v1
-A low-cost and lightweight 6 DoF bimanual arm for dynamic and contact-rich manipulation,http://arxiv.org/pdf/2502.16908v2
-AnyDexGrasp: General Dexterous Grasping for Different Hands with Human-level Learning Efficiency,http://arxiv.org/pdf/2502.16420v1
-RHINO: Learning Real-Time Humanoid-Human-Object Interaction from Human Demonstrations,http://arxiv.org/pdf/2502.13134v1
-HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit,http://arxiv.org/pdf/2502.13013v2
-ToddlerBot: Open-Source ML-Compatible Humanoid Platform for Loco-Manipulation,http://arxiv.org/pdf/2502.00893v2
-DIRIGENt: End-To-End Robotic Imitation of Human Demonstrations Based on a Diffusion Model,http://arxiv.org/pdf/2501.16800v1
-"Humanoid Locomotion and Manipulation: Current Progress and Challenges in Control, Planning, and Learning",http://arxiv.org/pdf/2501.02116v2
-Human-Humanoid Robots Cross-Embodiment Behavior-Skill Transfer Using Decomposed Adversarial Learning from Demonstration,http://arxiv.org/pdf/2412.15166v1
-RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation,http://arxiv.org/pdf/2412.13877v3
-Mobile-TeleVision: Predictive Motion Priors for Humanoid Whole-Body Control,http://arxiv.org/pdf/2412.07773v2
-GLOVER: Generalizable Open-Vocabulary Affordance Reasoning for Task-Oriented Grasping,http://arxiv.org/pdf/2411.12286v2
-Coarse-to-fine Q-Network with Action Sequence for Data-Efficient Robot Learning,http://arxiv.org/pdf/2411.12155v4
-Integrative Wrapping System for a Dual-Arm Humanoid Robot,http://arxiv.org/pdf/2411.08389v1
-Effective Virtual Reality Teleoperation of an Upper-body Humanoid with Modified Task Jacobians and Relaxed Barrier Functions for Self-Collision Avoidance,http://arxiv.org/pdf/2411.07534v2
-Self-Body Image Acquisition and Posture Generation with Redundancy using Musculoskeletal Humanoid Shoulder Complex for Object Manipulation,http://arxiv.org/pdf/2411.06320v1
-The Role of Domain Randomization in Training Diffusion Policies for Whole-Body Humanoid Control,http://arxiv.org/pdf/2411.01349v1
-DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning,http://arxiv.org/pdf/2410.24185v2
-HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots,http://arxiv.org/pdf/2410.21229v2
-OKAMI: Teaching Humanoid Robots Manipulation Skills through Single Video Imitation,http://arxiv.org/pdf/2410.11792v1
-Learning Goal-oriented Bimanual Dough Rolling Using Dynamic Heterogeneous Graph Based on Human Demonstration,http://arxiv.org/pdf/2410.22355v1
-Generalizable Humanoid Manipulation with 3D Diffusion Policies,http://arxiv.org/pdf/2410.10803v2
-ManiSkill3: GPU Parallelized Robotics Simulation and Rendering for Generalizable Embodied AI,http://arxiv.org/pdf/2410.00425v2
-Opt2Skill: Imitating Dynamically-feasible Whole-Body Trajectories for Versatile Humanoid Loco-Manipulation,http://arxiv.org/pdf/2409.20514v3
-CurricuLLM: Automatic Task Curricula Design for Learning Complex Robot Skills using Large Language Models,http://arxiv.org/pdf/2409.18382v2
-Uncovering the Secrets of Human-Like Movement: A Fresh Perspective on Motion Planning,http://arxiv.org/pdf/2409.10747v3
-End-to-End and Highly-Efficient Differentiable Simulation for Robotics,http://arxiv.org/pdf/2409.07107v2
-GeMuCo: Generalized Multisensory Correlational Model for Body Schema Learning,http://arxiv.org/pdf/2409.06427v1
-PR2: A Physics- and Photo-realistic Testbed for Embodied AI and Humanoid Robots,http://arxiv.org/pdf/2409.01559v1
-Grounding Language Models in Autonomous Loco-manipulation Tasks,http://arxiv.org/pdf/2409.01326v1
-ACE: A Cross-Platform Visual-Exoskeletons System for Low-Cost Dexterous Teleoperation,http://arxiv.org/pdf/2408.11805v1
-System Identification For Constrained Robots,http://arxiv.org/pdf/2408.08830v1
-Autonomous Behavior Planning For Humanoid Loco-manipulation Through Grounded Language Model,http://arxiv.org/pdf/2408.08282v1
-EyeSight Hand: Design of a Fully-Actuated Dexterous Robot Hand with Integrated Vision-Based Tactile Sensors and Compliant Actuation,http://arxiv.org/pdf/2408.06265v1
-Motion Accuracy and Computational Effort in QP-based Robot Control,http://arxiv.org/pdf/2407.16617v2
-Words2Contact: Identifying Support Contacts from Verbal Instructions Using Foundation Models,http://arxiv.org/pdf/2407.14229v2
-Flow Matching Imitation Learning for Multi-Support Manipulation,http://arxiv.org/pdf/2407.12381v2
-Wheeled Humanoid Bilateral Teleoperation with Position-Force Control Modes for Dynamic Loco-Manipulation,http://arxiv.org/pdf/2407.12189v1
-Omnigrasp: Grasping Diverse Objects with Simulated Humanoids,http://arxiv.org/pdf/2407.11385v2
-HYPERmotion: Learning Hybrid Behavior Planning for Autonomous Loco-manipulation,http://arxiv.org/pdf/2406.14655v1
-CooHOI: Learning Cooperative Human-Object Interaction with Manipulated Object Dynamics,http://arxiv.org/pdf/2406.14558v3
-OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning,http://arxiv.org/pdf/2406.08858v1
-WoCoCo: Learning Whole-Body Humanoid Control with Sequential Contacts,http://arxiv.org/pdf/2406.06005v2
-"Design, Calibration, and Control of Compliant Force-sensing Gripping Pads for Humanoid Robots",http://arxiv.org/pdf/2405.20969v1
-Physically Consistent Online Inertial Adaptation for Humanoid Loco-manipulation,http://arxiv.org/pdf/2405.07901v1
-Sensorized Soft Skin for Dexterous Robotic Hands,http://arxiv.org/pdf/2404.19448v1
-Inverse Kinematics for Neuro-Robotic Grasping with Humanoid Embodied Agents,http://arxiv.org/pdf/2404.08825v2
-Online Learning of Joint-Muscle Mapping Using Vision in Tendon-driven Musculoskeletal Humanoids,http://arxiv.org/pdf/2404.05295v1
+Reconstructing Close Human Interaction with Appearance and Proxemics Reasoning,http://arxiv.org/pdf/2507.02565v1
+"VolumetricSMPL: A Neural Volumetric Body Model for Efficient Interactions, Contacts, and Collisions",http://arxiv.org/pdf/2506.23236v1
+Seamless Interaction: Dyadic Audiovisual Motion Modeling and Large-Scale Dataset,http://arxiv.org/pdf/2506.22554v2
+GenHSI: Controllable Generation of Human-Scene Interaction Videos,http://arxiv.org/pdf/2506.19840v1
+Systematic Comparison of Projection Methods for Monocular 3D Human Pose Estimation on Fisheye Images,http://arxiv.org/pdf/2506.19747v1
+Auto-Regressively Generating Multi-View Consistent Images,http://arxiv.org/pdf/2506.18527v1
+PF-LHM: 3D Animatable Avatar Reconstruction from Pose-free Articulated Human Images,http://arxiv.org/pdf/2506.13766v1
+SMPL Normal Map Is All You Need for Single-view Textured Human Reconstruction,http://arxiv.org/pdf/2506.12793v1
+Synthetic Human Action Video Data Generation with Pose Transfer,http://arxiv.org/pdf/2506.09411v1
+Parametric Gaussian Human Model: Generalizable Prior for Efficient and Realistic Human Avatar Modeling,http://arxiv.org/pdf/2506.06645v1
+SmartAvatar: Text- and Image-Guided Human Avatar Generation with VLM AI Agents,http://arxiv.org/pdf/2506.04606v1
+HuGeDiff: 3D Human Generation via Diffusion with Gaussian Splatting,http://arxiv.org/pdf/2506.04351v1
+Object-centric 3D Motion Field for Robot Learning from Human Videos,http://arxiv.org/pdf/2506.04227v1
+HumanRAM: Feed-forward Human Reconstruction and Animation Model using Transformers,http://arxiv.org/pdf/2506.03118v1
+Controllable Human-centric Keyframe Interpolation with Generative Prior,http://arxiv.org/pdf/2506.03119v1
+Learning Pyramid-structured Long-range Dependencies for 3D Human Pose Estimation,http://arxiv.org/pdf/2506.02853v1
+UMA: Ultra-detailed Human Avatars via Multi-level Surface Alignment,http://arxiv.org/pdf/2506.01802v1
+AdaHuman: Animatable Detailed 3D Human Generation with Compositional Multiview Diffusion,http://arxiv.org/pdf/2505.24877v1
+InteractAnything: Zero-shot Human Object Interaction Synthesis via LLM Feedback and Object Affordance Parsing,http://arxiv.org/pdf/2505.24315v1
+Quality assessment of 3D human animation: Subjective and objective evaluation,http://arxiv.org/pdf/2505.23301v1
+GeoMan: Temporally Consistent Human Geometry Estimation using Image-to-Video Diffusion,http://arxiv.org/pdf/2505.23085v1
+Disentangled Human Body Representation Based on Unsupervised Semantic-Aware Learning,http://arxiv.org/pdf/2505.19049v1
+Canonical Pose Reconstruction from Single Depth Image for 3D Non-rigid Pose Recovery on Limited Datasets,http://arxiv.org/pdf/2505.17992v1
+Compressing Human Body Video with Interactive Semantics: A Generative Approach,http://arxiv.org/pdf/2505.16152v1
+Interspatial Attention for Efficient 4D Human Video Generation,http://arxiv.org/pdf/2505.15800v2
+EVA: Expressive Virtual Avatars from Multi-view Videos,http://arxiv.org/pdf/2505.15385v1
+ADHMR: Aligning Diffusion-based Human Mesh Recovery via Direct Preference Optimization,http://arxiv.org/pdf/2505.10250v2
+MTVCrafter: 4D Motion Tokenization for Open-World Human Image Animation,http://arxiv.org/pdf/2505.10238v4
+Human Motion Prediction via Test-domain-aware Adaptation with Easily-available Human Motions Estimated from Videos,http://arxiv.org/pdf/2505.07301v2
+GRACE: Estimating Geometry-level 3D Human-Scene Contact from 2D Images,http://arxiv.org/pdf/2505.06575v1
+SVAD: From Single Image to 3D Avatar via Synthetic Data Generation with Video Diffusion and Data Augmentation,http://arxiv.org/pdf/2505.05475v1
+Progressive Inertial Poser: Progressive Real-Time Kinematic Chain Estimation for 3D Full-Body Pose from Three IMU Sensors,http://arxiv.org/pdf/2505.05336v1
+Person-In-Situ: Scene-Consistent Human Image Insertion with Occlusion-Aware Pose Control,http://arxiv.org/pdf/2505.04052v1
+GUAVA: Generalizable Upper Body 3D Gaussian Avatar,http://arxiv.org/pdf/2505.03351v1
+MVHumanNet++: A Large-scale Dataset of Multi-view Daily Dressing Human Captures with Richer Annotations for 3D Human Digitization,http://arxiv.org/pdf/2505.01838v1
+3D Human Pose Estimation via Spatial Graph Order Attention and Temporal Body Aware Transformer,http://arxiv.org/pdf/2505.01003v1
+Common3D: Self-Supervised Learning of 3D Morphable Models for Common Objects in Neural Feature Space,http://arxiv.org/pdf/2504.21749v1
+Dance Style Recognition Using Laban Movement Analysis,http://arxiv.org/pdf/2504.21166v1
+EfficientHuman: Efficient Training and Reconstruction of Moving Human using Articulated 2D Gaussian,http://arxiv.org/pdf/2504.20607v1
+Unify3D: An Augmented Holistic End-to-end Monocular 3D Human Reconstruction via Anatomy Shaping and Twins Negotiating,http://arxiv.org/pdf/2504.18215v2
+PICO: Reconstructing 3D People In Contact with Objects,http://arxiv.org/pdf/2504.17695v1
+3DV-TON: Textured 3D-Guided Consistent Video Try-on via Diffusion Models,http://arxiv.org/pdf/2504.17414v1
+SMPL-GPTexture: Dual-View 3D Human Texture Estimation using Text-to-Image Generation Models,http://arxiv.org/pdf/2504.13378v1
+GSAC: Leveraging Gaussian Splatting for Photorealistic Avatar Creation with Unity Integration,http://arxiv.org/pdf/2504.12999v1
+UniAnimate-DiT: Human Image Animation with Large-Scale Video Diffusion Transformer,http://arxiv.org/pdf/2504.11289v1
+Efficient 2D to Full 3D Human Pose Uplifting including Joint Rotations,http://arxiv.org/pdf/2504.09953v1
+Single View Garment Reconstruction Using Diffusion Mapping Via Pattern Coordinates,http://arxiv.org/pdf/2504.08353v2
+InteractVLM: 3D Interaction Reasoning from 2D Foundational Models,http://arxiv.org/pdf/2504.05303v1
+HumanDreamer-X: Photorealistic Single-image Human Avatars Reconstruction via Gaussian Restoration,http://arxiv.org/pdf/2504.03536v1
+Dual-stream Transformer-GCN Model with Contextualized Representations Learning for Monocular 3D Human Pose Estimation,http://arxiv.org/pdf/2504.01764v1
+RealityAvatar: Towards Realistic Loose Clothing Modeling in Animatable 3D Gaussian Avatars,http://arxiv.org/pdf/2504.01559v1
+Computer Vision and Deep Learning for 4D Augmented Reality,http://arxiv.org/pdf/2504.02860v1
+HumanDreamer: Generating Controllable Human-Motion Videos via Decoupled Generation,http://arxiv.org/pdf/2503.24026v2
+Reconstructing Humans with a Biomechanically Accurate Skeleton,http://arxiv.org/pdf/2503.21751v1
+Zero-Shot Human-Object Interaction Synthesis with Multimodal Priors,http://arxiv.org/pdf/2503.20118v1
+Multi-modal 3D Pose and Shape Estimation with Computed Tomography,http://arxiv.org/pdf/2503.19405v1
+DeClotH: Decomposable 3D Cloth and Human Body Reconstruction from a Single Image,http://arxiv.org/pdf/2503.19373v1
+FRESA: Feedforward Reconstruction of Personalized Skinned Avatars from Few Images,http://arxiv.org/pdf/2503.19207v2
+Animating the Uncaptured: Humanoid Mesh Animation with Video Diffusion Models,http://arxiv.org/pdf/2503.15996v1
+Controlling Avatar Diffusion with Learnable Gaussian Embedding,http://arxiv.org/pdf/2503.15809v1
+CHROME: Clothed Human Reconstruction with Occlusion-Resilience and Multiview-Consistency from a Single Image,http://arxiv.org/pdf/2503.15671v1
+Advances in 4D Generation: A Survey,http://arxiv.org/pdf/2503.14501v2
+RoGSplat: Learning Robust Generalizable Human Gaussian Splatting from Sparse Multi-View Images,http://arxiv.org/pdf/2503.14198v1
+3D Human Interaction Generation: A Survey,http://arxiv.org/pdf/2503.13120v1
+PoseSyn: Synthesizing Diverse 3D Pose Data from In-the-Wild 2D Data,http://arxiv.org/pdf/2503.13025v1
+VTON 360: High-Fidelity Virtual Try-On from Any Viewing Direction,http://arxiv.org/pdf/2503.12165v2
+Tailor: An Integrated Text-Driven CG-Ready Human and Garment Generation System,http://arxiv.org/pdf/2503.12052v2
+NIL: No-data Imitation Learning by Leveraging Pre-trained Video Diffusion Models,http://arxiv.org/pdf/2503.10626v1
+LHM: Large Animatable Human Reconstruction Model from a Single Image in Seconds,http://arxiv.org/pdf/2503.10625v1
+ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness,http://arxiv.org/pdf/2503.10624v1
+Better Together: Unified Motion Capture and 3D Avatar Reconstruction,http://arxiv.org/pdf/2503.09293v1
+MEAT: Multiview Diffusion Model for Human Generation on Megapixels with Mesh Attention,http://arxiv.org/pdf/2503.08664v1
+MVD-HuGaS: Human Gaussians from a Single Image via 3D Human Multi-view Diffusion Prior,http://arxiv.org/pdf/2503.08218v1
+Multimodal Generation of Animatable 3D Human Models with AvatarForge,http://arxiv.org/pdf/2503.08165v1
+Fish2Mesh Transformer: 3D Human Mesh Recovery from Egocentric Vision,http://arxiv.org/pdf/2503.06089v1
+EvolvingGS: High-Fidelity Streamable Volumetric Video via Evolving 3D Gaussian Representation,http://arxiv.org/pdf/2503.05162v1
+mmDEAR: mmWave Point Cloud Density Enhancement for Accurate Human Body Reconstruction,http://arxiv.org/pdf/2503.02375v1
+Vid2Avatar-Pro: Authentic Avatar from Videos in the Wild via Universal Prior,http://arxiv.org/pdf/2503.01610v1
+Generative Human Geometry Distribution,http://arxiv.org/pdf/2503.01448v2
+Jointly Understand Your Command and Intention:Reciprocal Co-Evolution between Scene-Aware 3D Human Motion Synthesis and Analysis,http://arxiv.org/pdf/2503.00371v3
+MESC-3D:Mining Effective Semantic Cues for 3D Reconstruction from a Single Image,http://arxiv.org/pdf/2502.20861v1
+PI-HMR: Towards Robust In-bed Temporal Human Shape Reconstruction with Contact Pressure Sensing,http://arxiv.org/pdf/2503.00068v2
+Open-Vocabulary Semantic Part Segmentation of 3D Human,http://arxiv.org/pdf/2502.19782v1
+Realistic Clothed Human and Object Joint Reconstruction from a Single Image,http://arxiv.org/pdf/2502.18150v2
+DeProPose: Deficiency-Proof 3D Human Pose Estimation via Adaptive Multi-View Fusion,http://arxiv.org/pdf/2502.16419v1
+"Human Motion Prediction, Reconstruction, and Generation",http://arxiv.org/pdf/2502.15956v1
+HumanGif: Single-View Human Diffusion with Generative Prior,http://arxiv.org/pdf/2502.12080v3
+GaussianMotion: End-to-End Learning of Animatable Gaussian Avatars with Pose Guidance from Text,http://arxiv.org/pdf/2502.11642v1
+Text-driven 3D Human Generation via Contrastive Preference Optimization,http://arxiv.org/pdf/2502.08977v3
+"Human-Centric Foundation Models: Perception, Generation and Agentic Modeling",http://arxiv.org/pdf/2502.08556v1
+Pippo: High-Resolution Multi-View Humans from a Single Image,http://arxiv.org/pdf/2502.07785v1
+The establishment of static digital humans and the integration with spinal models,http://arxiv.org/pdf/2502.07844v1
+GAS: Generative Avatar Synthesis from a Single Image,http://arxiv.org/pdf/2502.06957v1
+Measuring Physical Plausibility of 3D Human Poses Using Physics Simulation,http://arxiv.org/pdf/2502.04483v1
+Adapting Human Mesh Recovery with Vision-Language Feedback,http://arxiv.org/pdf/2502.03836v1
+High-Fidelity Human Avatars from Laptop Webcams using Edge Compute,http://arxiv.org/pdf/2502.02468v1
+ShapeShifter: 3D Variations Using Multiscale and Sparse Point-Voxel Diffusion,http://arxiv.org/pdf/2502.02187v2
+WonderHuman: Hallucinating Unseen Parts in Dynamic 3D Human Reconstruction,http://arxiv.org/pdf/2502.01045v1
+Strong and Controllable 3D Motion Generation,http://arxiv.org/pdf/2501.18726v1
+BAG: Body-Aligned 3D Wearable Asset Generation,http://arxiv.org/pdf/2501.16177v1
+IPVTON: Image-based 3D Virtual Try-on with Image Prompt Adapter,http://arxiv.org/pdf/2501.15616v1
+Deblur-Avatar: Animatable Avatars from Motion-Blurred Monocular Videos,http://arxiv.org/pdf/2501.13335v3
+3D Object Manipulation in a Single Image using Generative Models,http://arxiv.org/pdf/2501.12935v1
+BioPose: Biomechanically-accurate 3D Pose Estimation from Monocular Videos,http://arxiv.org/pdf/2501.07800v1
+UV-Attack: Physical-World Adversarial Attacks for Person Detection via Dynamic-NeRF-based UV Mapping,http://arxiv.org/pdf/2501.05783v1
+JADE: Joint-aware Latent Diffusion for 3D Human Generative Modeling,http://arxiv.org/pdf/2412.20470v1
+Optimizing Local-Global Dependencies for Accurate 3D Human Pose Estimation,http://arxiv.org/pdf/2412.19676v1
+A Plug-and-Play Physical Motion Restoration Approach for In-the-Wild High-Difficulty Motions,http://arxiv.org/pdf/2412.17377v1
+GANFusion: Feed-Forward Text-to-3D with Diffusion in GAN Space,http://arxiv.org/pdf/2412.16717v1
+IDOL: Instant Photorealistic 3D Human Creation from a Single Image,http://arxiv.org/pdf/2412.14963v2
+GenHMR: Generative Human Mesh Recovery,http://arxiv.org/pdf/2412.14444v1
+GraphicsDreamer: Image to 3D Generation with Physical Consistency,http://arxiv.org/pdf/2412.14214v1
+CondiMen: Conditional Multi-Person Mesh Recovery,http://arxiv.org/pdf/2412.13058v2
+3D$^2$-Actor: Learning Pose-Conditioned 3D-Aware Denoiser for Realistic Gaussian Avatar Modeling,http://arxiv.org/pdf/2412.11599v1
+MeshArt: Generating Articulated Meshes with Structure-Guided Transformers,http://arxiv.org/pdf/2412.11596v2
