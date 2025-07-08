@@ -44,7 +44,7 @@ Follow these steps to set it up:
    - Add it to your system:  
      - macOS/Linux:  
        ```bash
-       export DASHSCOPE_API_KEY="sk-cb80f02ff551428f887a09cf281c1d24"
+       export DASHSCOPE_API_KEY="sk-***"
        ```  
      - Windows PowerShell:  
        ```bash
