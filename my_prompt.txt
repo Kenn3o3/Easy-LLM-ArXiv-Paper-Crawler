@@ -1,8 +1,29 @@
 Here is the overview of a project I am recently working on:
 ```
-My project overview:
+Project Description
+This project aims to create a high-fidelity 3D digital twin of a human based on input data capturing the human in any pose. The output is a textured, rigged 3D model that accurately reflects the input human’s appearance, shape, and pose, and is designed for import into simulator for animation and real-time teleoperation.
 
-Create a rigged 3D model from a real human in any pose (e.g., sitting, standing) and shape (e.g., fatness).
+Input
+	• Accepted Inputs: The system accepts various forms of data capturing a human in any pose, such as video
+	• Pose Examples: Sitting, lying, standing, reading, or any other natural human pose.
+	• Quality Considerations: For best results, inputs should provide sufficient coverage of the human body (e.g., multiple angles or depth data). The method is robust enough to handle partial occlusions or incomplete views by inferring missing details.
+
+Output
+	• Format: A textured 3D human model delivered in a standard file format (e.g., FBX or OBJ).
+	• Key Features: 
+		○ Customized Shapes: The model’s proportions (e.g., height, weight, body fat distribution) are tailored to match the specific human in the input.
+		○ High-Quality Details: 
+			§ Photorealistic textures for skin (including color variations), clothing, and other surfaces, with detailed maps (diffuse, normal, specular).
+			§ Fine meshes capturing intricate geometry like facial features, hair strands, and clothing folds.
+		○ Pose Accuracy: The model is reconstructed in the exact pose depicted in the input data.
+	• Rigging: The model may includes a skeletal rig, enabling animation within the simulator.
+
+Animatability
+	• Animation Support: The rigged model supports standard animation techniques for posing and movement.
+	• Teleoperation Capability: The model is designed to be teleoperated in the simulator using real-time inputs, such as: 
+		○ Live camera feeds,
+		○ Motion capture systems, or
+		○ Other sensor data as needed.
 ```
 
 Is this paper highly related to my project?

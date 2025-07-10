@@ -37,21 +37,38 @@ def generate_keywords(prompt: str) -> List[str]:
         logging.error("API_KEY is not set. Cannot generate keywords.")
         return []
 
-    # Updated prompt for a clean, comma-separated list
-    ai_prompt = f"Generate a comma-separated list of keywords relevant to the following topic: {prompt}. Do not include any explanations or additional text."
+    # Improved prompt for better keyword reasoning
+    ai_prompt = (
+        "You are helping to search for relevant research papers on arXiv. "
+        "Given the following project description, generate a comma-separated list of search keywords and short phrases that are likely to appear in the title or abstract of relevant arXiv papers. "
+        "Include both broad and specific terms, but avoid long or rare phrases. "
+        "Favor single words and common two-word phrases. "
+        "Do not include explanations or extra text.\n\n"
+        f"Project description:\n{prompt}"
+    )
     try:
-        keywords_str = call_dashscope_api(ai_prompt, max_tokens=50)
+        keywords_str = call_dashscope_api(ai_prompt, max_tokens=100)
         if not keywords_str:
             return []
         # Split by commas and clean up each keyword
         keywords = [kw.strip() for kw in keywords_str.split(",")]
-        return keywords
+        # Remove duplicates and filter out keywords longer than 3 words
+        filtered = []
+        seen = set()
+        for kw in keywords:
+            if kw and kw.lower() not in seen and len(kw.split()) <= 3:
+                filtered.append(kw)
+                seen.add(kw.lower())
+        # Limit to top 10 keywords
+        filtered = filtered[:10]
+        logging.info(f"Final machine-generated keywords (max 10): {filtered}")
+        return filtered
     except Exception as e:
         logging.error(f"Error generating keywords: {e}")
         return []
 
-def filter_papers_with_llm(papers: List[Dict[str, Any]], prompt: str) -> List[Dict[str, Any]]:
-    """Filters papers using an LLM based on the provided prompt."""
+def filter_papers_with_llm(papers: List[Dict[str, Any]], prompt: str, strict: bool = True) -> List[Dict[str, Any]]:
+    """Filters papers using an LLM based on the provided prompt. If strict is False, accept any answer containing 'yes' or starting with 'y'."""
     api_key = os.getenv("DASHSCOPE_API_KEY", API_KEY)
     if not api_key:
         logging.error("API_KEY is not set. Cannot filter papers.")
@@ -65,10 +82,14 @@ def filter_papers_with_llm(papers: List[Dict[str, Any]], prompt: str) -> List[Di
         full_prompt = f"{prompt}\n\nTitle: {title}\nAbstract: {summary}\n\nAnswer with 'yes' or 'no'."
         try:
             answer = call_dashscope_api(full_prompt, max_tokens=5)
-            answer = answer.strip().lower()
-            logging.info(f"Paper {i+1}/{len(papers)}: '{title[:50]}...' - LLM response: {answer}")
-            if "yes" in answer:
-                filtered_papers.append(paper)
+            answer_clean = answer.strip().lower()
+            logging.info(f"Paper {i+1}/{len(papers)}: '{title[:50]}...'\nPrompt: {full_prompt}\nLLM response: {answer}")
+            if strict:
+                if answer_clean == "yes" or answer_clean.startswith("yes."):
+                    filtered_papers.append(paper)
+            else:
+                if answer_clean.startswith("y"):
+                    filtered_papers.append(paper)
         except Exception as e:
             logging.warning(f"Error filtering paper '{title[:50]}...': {e}")
             continue

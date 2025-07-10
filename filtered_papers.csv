@@ -1,17 +1,10 @@
 Paper Name,PDF Link
-Reconstructing Close Human Interaction with Appearance and Proxemics Reasoning,http://arxiv.org/pdf/2507.02565v1
-"VolumetricSMPL: A Neural Volumetric Body Model for Efficient Interactions, Contacts, and Collisions",http://arxiv.org/pdf/2506.23236v1
-Seamless Interaction: Dyadic Audiovisual Motion Modeling and Large-Scale Dataset,http://arxiv.org/pdf/2506.22554v2
-GenHSI: Controllable Generation of Human-Scene Interaction Videos,http://arxiv.org/pdf/2506.19840v1
 Systematic Comparison of Projection Methods for Monocular 3D Human Pose Estimation on Fisheye Images,http://arxiv.org/pdf/2506.19747v1
-Auto-Regressively Generating Multi-View Consistent Images,http://arxiv.org/pdf/2506.18527v1
 PF-LHM: 3D Animatable Avatar Reconstruction from Pose-free Articulated Human Images,http://arxiv.org/pdf/2506.13766v1
 SMPL Normal Map Is All You Need for Single-view Textured Human Reconstruction,http://arxiv.org/pdf/2506.12793v1
 Synthetic Human Action Video Data Generation with Pose Transfer,http://arxiv.org/pdf/2506.09411v1
 Parametric Gaussian Human Model: Generalizable Prior for Efficient and Realistic Human Avatar Modeling,http://arxiv.org/pdf/2506.06645v1
-SmartAvatar: Text- and Image-Guided Human Avatar Generation with VLM AI Agents,http://arxiv.org/pdf/2506.04606v1
 HuGeDiff: 3D Human Generation via Diffusion with Gaussian Splatting,http://arxiv.org/pdf/2506.04351v1
-Object-centric 3D Motion Field for Robot Learning from Human Videos,http://arxiv.org/pdf/2506.04227v1
 HumanRAM: Feed-forward Human Reconstruction and Animation Model using Transformers,http://arxiv.org/pdf/2506.03118v1
 Controllable Human-centric Keyframe Interpolation with Generative Prior,http://arxiv.org/pdf/2506.03119v1
 Learning Pyramid-structured Long-range Dependencies for 3D Human Pose Estimation,http://arxiv.org/pdf/2506.02853v1
@@ -29,88 +22,3 @@ ADHMR: Aligning Diffusion-based Human Mesh Recovery via Direct Preference Optimi
 MTVCrafter: 4D Motion Tokenization for Open-World Human Image Animation,http://arxiv.org/pdf/2505.10238v4
 Human Motion Prediction via Test-domain-aware Adaptation with Easily-available Human Motions Estimated from Videos,http://arxiv.org/pdf/2505.07301v2
 GRACE: Estimating Geometry-level 3D Human-Scene Contact from 2D Images,http://arxiv.org/pdf/2505.06575v1
-SVAD: From Single Image to 3D Avatar via Synthetic Data Generation with Video Diffusion and Data Augmentation,http://arxiv.org/pdf/2505.05475v1
-Progressive Inertial Poser: Progressive Real-Time Kinematic Chain Estimation for 3D Full-Body Pose from Three IMU Sensors,http://arxiv.org/pdf/2505.05336v1
-Person-In-Situ: Scene-Consistent Human Image Insertion with Occlusion-Aware Pose Control,http://arxiv.org/pdf/2505.04052v1
-GUAVA: Generalizable Upper Body 3D Gaussian Avatar,http://arxiv.org/pdf/2505.03351v1
-MVHumanNet++: A Large-scale Dataset of Multi-view Daily Dressing Human Captures with Richer Annotations for 3D Human Digitization,http://arxiv.org/pdf/2505.01838v1
-3D Human Pose Estimation via Spatial Graph Order Attention and Temporal Body Aware Transformer,http://arxiv.org/pdf/2505.01003v1
-Common3D: Self-Supervised Learning of 3D Morphable Models for Common Objects in Neural Feature Space,http://arxiv.org/pdf/2504.21749v1
-Dance Style Recognition Using Laban Movement Analysis,http://arxiv.org/pdf/2504.21166v1
-EfficientHuman: Efficient Training and Reconstruction of Moving Human using Articulated 2D Gaussian,http://arxiv.org/pdf/2504.20607v1
-Unify3D: An Augmented Holistic End-to-end Monocular 3D Human Reconstruction via Anatomy Shaping and Twins Negotiating,http://arxiv.org/pdf/2504.18215v2
-PICO: Reconstructing 3D People In Contact with Objects,http://arxiv.org/pdf/2504.17695v1
-3DV-TON: Textured 3D-Guided Consistent Video Try-on via Diffusion Models,http://arxiv.org/pdf/2504.17414v1
-SMPL-GPTexture: Dual-View 3D Human Texture Estimation using Text-to-Image Generation Models,http://arxiv.org/pdf/2504.13378v1
-GSAC: Leveraging Gaussian Splatting for Photorealistic Avatar Creation with Unity Integration,http://arxiv.org/pdf/2504.12999v1
-UniAnimate-DiT: Human Image Animation with Large-Scale Video Diffusion Transformer,http://arxiv.org/pdf/2504.11289v1
-Efficient 2D to Full 3D Human Pose Uplifting including Joint Rotations,http://arxiv.org/pdf/2504.09953v1
-Single View Garment Reconstruction Using Diffusion Mapping Via Pattern Coordinates,http://arxiv.org/pdf/2504.08353v2
-InteractVLM: 3D Interaction Reasoning from 2D Foundational Models,http://arxiv.org/pdf/2504.05303v1
-HumanDreamer-X: Photorealistic Single-image Human Avatars Reconstruction via Gaussian Restoration,http://arxiv.org/pdf/2504.03536v1
-Dual-stream Transformer-GCN Model with Contextualized Representations Learning for Monocular 3D Human Pose Estimation,http://arxiv.org/pdf/2504.01764v1
-RealityAvatar: Towards Realistic Loose Clothing Modeling in Animatable 3D Gaussian Avatars,http://arxiv.org/pdf/2504.01559v1
-Computer Vision and Deep Learning for 4D Augmented Reality,http://arxiv.org/pdf/2504.02860v1
-HumanDreamer: Generating Controllable Human-Motion Videos via Decoupled Generation,http://arxiv.org/pdf/2503.24026v2
-Reconstructing Humans with a Biomechanically Accurate Skeleton,http://arxiv.org/pdf/2503.21751v1
-Zero-Shot Human-Object Interaction Synthesis with Multimodal Priors,http://arxiv.org/pdf/2503.20118v1
-Multi-modal 3D Pose and Shape Estimation with Computed Tomography,http://arxiv.org/pdf/2503.19405v1
-DeClotH: Decomposable 3D Cloth and Human Body Reconstruction from a Single Image,http://arxiv.org/pdf/2503.19373v1
-FRESA: Feedforward Reconstruction of Personalized Skinned Avatars from Few Images,http://arxiv.org/pdf/2503.19207v2
-Animating the Uncaptured: Humanoid Mesh Animation with Video Diffusion Models,http://arxiv.org/pdf/2503.15996v1
-Controlling Avatar Diffusion with Learnable Gaussian Embedding,http://arxiv.org/pdf/2503.15809v1
-CHROME: Clothed Human Reconstruction with Occlusion-Resilience and Multiview-Consistency from a Single Image,http://arxiv.org/pdf/2503.15671v1
-Advances in 4D Generation: A Survey,http://arxiv.org/pdf/2503.14501v2
-RoGSplat: Learning Robust Generalizable Human Gaussian Splatting from Sparse Multi-View Images,http://arxiv.org/pdf/2503.14198v1
-3D Human Interaction Generation: A Survey,http://arxiv.org/pdf/2503.13120v1
-PoseSyn: Synthesizing Diverse 3D Pose Data from In-the-Wild 2D Data,http://arxiv.org/pdf/2503.13025v1
-VTON 360: High-Fidelity Virtual Try-On from Any Viewing Direction,http://arxiv.org/pdf/2503.12165v2
-Tailor: An Integrated Text-Driven CG-Ready Human and Garment Generation System,http://arxiv.org/pdf/2503.12052v2
-NIL: No-data Imitation Learning by Leveraging Pre-trained Video Diffusion Models,http://arxiv.org/pdf/2503.10626v1
-LHM: Large Animatable Human Reconstruction Model from a Single Image in Seconds,http://arxiv.org/pdf/2503.10625v1
-ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness,http://arxiv.org/pdf/2503.10624v1
-Better Together: Unified Motion Capture and 3D Avatar Reconstruction,http://arxiv.org/pdf/2503.09293v1
-MEAT: Multiview Diffusion Model for Human Generation on Megapixels with Mesh Attention,http://arxiv.org/pdf/2503.08664v1
-MVD-HuGaS: Human Gaussians from a Single Image via 3D Human Multi-view Diffusion Prior,http://arxiv.org/pdf/2503.08218v1
-Multimodal Generation of Animatable 3D Human Models with AvatarForge,http://arxiv.org/pdf/2503.08165v1
-Fish2Mesh Transformer: 3D Human Mesh Recovery from Egocentric Vision,http://arxiv.org/pdf/2503.06089v1
-EvolvingGS: High-Fidelity Streamable Volumetric Video via Evolving 3D Gaussian Representation,http://arxiv.org/pdf/2503.05162v1
-mmDEAR: mmWave Point Cloud Density Enhancement for Accurate Human Body Reconstruction,http://arxiv.org/pdf/2503.02375v1
-Vid2Avatar-Pro: Authentic Avatar from Videos in the Wild via Universal Prior,http://arxiv.org/pdf/2503.01610v1
-Generative Human Geometry Distribution,http://arxiv.org/pdf/2503.01448v2
-Jointly Understand Your Command and Intention:Reciprocal Co-Evolution between Scene-Aware 3D Human Motion Synthesis and Analysis,http://arxiv.org/pdf/2503.00371v3
-MESC-3D:Mining Effective Semantic Cues for 3D Reconstruction from a Single Image,http://arxiv.org/pdf/2502.20861v1
-PI-HMR: Towards Robust In-bed Temporal Human Shape Reconstruction with Contact Pressure Sensing,http://arxiv.org/pdf/2503.00068v2
-Open-Vocabulary Semantic Part Segmentation of 3D Human,http://arxiv.org/pdf/2502.19782v1
-Realistic Clothed Human and Object Joint Reconstruction from a Single Image,http://arxiv.org/pdf/2502.18150v2
-DeProPose: Deficiency-Proof 3D Human Pose Estimation via Adaptive Multi-View Fusion,http://arxiv.org/pdf/2502.16419v1
-"Human Motion Prediction, Reconstruction, and Generation",http://arxiv.org/pdf/2502.15956v1
-HumanGif: Single-View Human Diffusion with Generative Prior,http://arxiv.org/pdf/2502.12080v3
-GaussianMotion: End-to-End Learning of Animatable Gaussian Avatars with Pose Guidance from Text,http://arxiv.org/pdf/2502.11642v1
-Text-driven 3D Human Generation via Contrastive Preference Optimization,http://arxiv.org/pdf/2502.08977v3
-"Human-Centric Foundation Models: Perception, Generation and Agentic Modeling",http://arxiv.org/pdf/2502.08556v1
-Pippo: High-Resolution Multi-View Humans from a Single Image,http://arxiv.org/pdf/2502.07785v1
-The establishment of static digital humans and the integration with spinal models,http://arxiv.org/pdf/2502.07844v1
-GAS: Generative Avatar Synthesis from a Single Image,http://arxiv.org/pdf/2502.06957v1
-Measuring Physical Plausibility of 3D Human Poses Using Physics Simulation,http://arxiv.org/pdf/2502.04483v1
-Adapting Human Mesh Recovery with Vision-Language Feedback,http://arxiv.org/pdf/2502.03836v1
-High-Fidelity Human Avatars from Laptop Webcams using Edge Compute,http://arxiv.org/pdf/2502.02468v1
-ShapeShifter: 3D Variations Using Multiscale and Sparse Point-Voxel Diffusion,http://arxiv.org/pdf/2502.02187v2
-WonderHuman: Hallucinating Unseen Parts in Dynamic 3D Human Reconstruction,http://arxiv.org/pdf/2502.01045v1
-Strong and Controllable 3D Motion Generation,http://arxiv.org/pdf/2501.18726v1
-BAG: Body-Aligned 3D Wearable Asset Generation,http://arxiv.org/pdf/2501.16177v1
-IPVTON: Image-based 3D Virtual Try-on with Image Prompt Adapter,http://arxiv.org/pdf/2501.15616v1
-Deblur-Avatar: Animatable Avatars from Motion-Blurred Monocular Videos,http://arxiv.org/pdf/2501.13335v3
-3D Object Manipulation in a Single Image using Generative Models,http://arxiv.org/pdf/2501.12935v1
-BioPose: Biomechanically-accurate 3D Pose Estimation from Monocular Videos,http://arxiv.org/pdf/2501.07800v1
-UV-Attack: Physical-World Adversarial Attacks for Person Detection via Dynamic-NeRF-based UV Mapping,http://arxiv.org/pdf/2501.05783v1
-JADE: Joint-aware Latent Diffusion for 3D Human Generative Modeling,http://arxiv.org/pdf/2412.20470v1
-Optimizing Local-Global Dependencies for Accurate 3D Human Pose Estimation,http://arxiv.org/pdf/2412.19676v1
-A Plug-and-Play Physical Motion Restoration Approach for In-the-Wild High-Difficulty Motions,http://arxiv.org/pdf/2412.17377v1
-GANFusion: Feed-Forward Text-to-3D with Diffusion in GAN Space,http://arxiv.org/pdf/2412.16717v1
-IDOL: Instant Photorealistic 3D Human Creation from a Single Image,http://arxiv.org/pdf/2412.14963v2
-GenHMR: Generative Human Mesh Recovery,http://arxiv.org/pdf/2412.14444v1
-GraphicsDreamer: Image to 3D Generation with Physical Consistency,http://arxiv.org/pdf/2412.14214v1
-CondiMen: Conditional Multi-Person Mesh Recovery,http://arxiv.org/pdf/2412.13058v2
-3D$^2$-Actor: Learning Pose-Conditioned 3D-Aware Denoiser for Realistic Gaussian Avatar Modeling,http://arxiv.org/pdf/2412.11599v1
-MeshArt: Generating Articulated Meshes with Structure-Guided Transformers,http://arxiv.org/pdf/2412.11596v2
